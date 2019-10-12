@@ -19,8 +19,8 @@ include device/samsung/hlte-common/BoardConfigCommon.mk
 TARGET_OTA_ASSERT_DEVICE := hlte,hltekor,hltektt,hltelgt,hlteskt
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm8974
-TARGET_LIBINIT_MSM8974_DEFINES_FILE := device/samsung/hltekor/init/init_hlte.cpp
+TARGET_INIT_VENDOR_LIB := libinit_hltekor
+TARGET_RECOVERY_DEVICE_MODULES := libinit_hltekor
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_hltekor_defconfig
